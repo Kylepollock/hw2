@@ -10,7 +10,15 @@ content = open('content/testimonials.html').read()
 testimonials = top_template + content + bottom_template
 open('docs/testimonials.html', 'w+').write(testimonials) 
 
+<<<<<<< HEAD
 #blog 
 page = open('content/blog.html').read()
 blog = top_template + page + bottom_template
 open('docs/blog.html', 'w+').write(blog) 
+=======
+#blog
+#testimonial 
+page = open('content/blog.html').read()
+blog = top_template + page + bottom_template
+open('docs/blog.html', 'w+').write(blog) 
+>>>>>>> 481c29b845875ead3101f996415431ca440350f7
