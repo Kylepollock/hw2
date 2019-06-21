@@ -11,6 +11,7 @@ testimonials = top_template + content + bottom_template
 open('docs/testimonials.html', 'w+').write(testimonials) 
 
 
+
 #blog 
 page = open('content/blog.html').read()
 blog = top_template + page + bottom_template
@@ -21,3 +22,10 @@ open('docs/blog.html', 'w+').write(blog)
 page = open('content/blog.html').read()
 blog = top_template + page + bottom_template
 open('docs/blog.html', 'w+').write(blog) 
+
+#blog
+#testimonial 
+page = open('content/blog.html').read()
+blog = top_template + page + bottom_template
+open('docs/blog.html', 'w+').write(blog) 
+
